@@ -1,0 +1,9 @@
+Building Oyoncoin
+
+See doc/readme-qt.rst for instructions on building Oyoncoin QT,
+the intended-for-end-users, nice-graphical-interface, reference
+implementation of Oyoncoin.
+
+See doc/build-*.txt for instructions on building oyoncoind,
+the intended-for-services, no-graphical-interface, reference
+implementation of Oyoncoin.

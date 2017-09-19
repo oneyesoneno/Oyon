@@ -46,8 +46,8 @@ inline bool MoneyRange(int64_t nValue) { return (nValue >= 0 && nValue <= MAX_MO
 static const unsigned int LOCKTIME_THRESHOLD = 500000000; // Tue Nov  5 00:53:20 1985 UTC
 
 
-static const uint256 hashGenesisBlock("0x5813d4cfab0eeda94a15d11c5e7d6895e667fbbe67c59ef9a1b3bc232c9a0b7f");
-static const uint256 hashGenesisBlockTestNet("0x5813d4cfab0eeda94a15d11c5e7d6895e667fbbe67c59ef9a1b3bc232c9a0b7f");
+static const uint256 hashGenesisBlock("0x000009b3fbed7692f0baa7ed7ae147df063366a042bc1ef0203d92c5b27bd41b");
+static const uint256 hashGenesisBlockTestNet("0x000009b3fbed7692f0baa7ed7ae147df063366a042bc1ef0203d92c5b27bd41b");
 
 
 inline int64_t PastDrift(int64_t nTime)   { return nTime - 10 * 60; } // up to 10 minutes from the past

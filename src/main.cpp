@@ -2433,7 +2433,7 @@ bool LoadBlockIndex(bool fAllowNew)
         pchMessageStart[1] = 0x45;
         pchMessageStart[2] = 0x86;
         pchMessageStart[3] = 0x0d;
-        hashGenesisBlock = uint256("0x000009b3fbed7692f0baa7ed7ae147df063366a042bc1ef0203d92c5b27bd41b");
+     
         bnProofOfWorkLimit = bnProofOfWorkLimitTestNet; // 16 bits PoW target limit for testnet
         nStakeMinAge = 1 * 60 * 60; // test net min age is 1 hour
         nCoinbaseMaturity = 10; // test maturity is 10 blocks

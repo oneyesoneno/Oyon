@@ -1,3 +1,4 @@
+
 // Copyright (c) 2009-2010 Satoshi Nakamoto
 // Copyright (c) 2009-2012 The Bitcoin developers
 // Distributed under the MIT/X11 software license, see the accompanying
@@ -2432,7 +2433,7 @@ bool LoadBlockIndex(bool fAllowNew)
         pchMessageStart[1] = 0x45;
         pchMessageStart[2] = 0x86;
         pchMessageStart[3] = 0x0d;
-
+        hashGenesisBlock = uint256("0x000009b3fbed7692f0baa7ed7ae147df063366a042bc1ef0203d92c5b27bd41b");
         bnProofOfWorkLimit = bnProofOfWorkLimitTestNet; // 16 bits PoW target limit for testnet
         nStakeMinAge = 1 * 60 * 60; // test net min age is 1 hour
         nCoinbaseMaturity = 10; // test maturity is 10 blocks
@@ -2468,7 +2469,7 @@ bool LoadBlockIndex(bool fAllowNew)
         block.nTime    = 1505804854;
         block.nVersion = 1;
         block.nBits    = bnProofOfWorkLimit.GetCompact();
-		block.nNonce   = 0;
+		block.nNonce   = 711974;
 		if(fTestNet)
         {
             block.nNonce   = 0;
@@ -2496,7 +2497,7 @@ bool LoadBlockIndex(bool fAllowNew)
         
         
         //// debug print
-        assert(block.hashMerkleRoot == uint256("0x1a32dc709d387fdca07aa6ade303db613157992fd4496d466d9b7fba3c70e73b"));
+        assert(block.hashMerkleRoot == uint256("0xa77be564b2819c3c6371a451c3f84eb9ec16e56c4bb5dc5bc12187300f100fdd"));
         block.print();
         assert(block.GetHash() == (!fTestNet ? hashGenesisBlock : hashGenesisBlockTestNet));
         assert(block.CheckBlock());

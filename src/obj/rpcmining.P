@@ -3,13 +3,13 @@ obj/rpcmining.o: rpcmining.cpp main.h bignum.h serialize.h allocators.h \
  netbase.h compat.h protocol.h addrman.h util.h script.h keystore.h \
  crypter.h key.h stealth.h scrypt.h hashblock.h sph_jh.h sph_types.h \
  sph_keccak.h sph_echo.h db.h txdb.h txdb-leveldb.h \
- /home/shacker/oyoncoin/src/leveldb/include/leveldb/db.h \
- /home/shacker/oyoncoin/src/leveldb/include/leveldb/iterator.h \
- /home/shacker/oyoncoin/src/leveldb/include/leveldb/slice.h \
- /home/shacker/oyoncoin/src/leveldb/include/leveldb/status.h \
- /home/shacker/oyoncoin/src/leveldb/include/leveldb/options.h \
- /home/shacker/oyoncoin/src/leveldb/include/leveldb/write_batch.h init.h \
- wallet.h ui_interface.h walletdb.h base58.h smessage.h lz4/lz4.h miner.h \
+ /root/oyon/src/leveldb/include/leveldb/db.h \
+ /root/oyon/src/leveldb/include/leveldb/iterator.h \
+ /root/oyon/src/leveldb/include/leveldb/slice.h \
+ /root/oyon/src/leveldb/include/leveldb/status.h \
+ /root/oyon/src/leveldb/include/leveldb/options.h \
+ /root/oyon/src/leveldb/include/leveldb/write_batch.h init.h wallet.h \
+ ui_interface.h walletdb.h base58.h smessage.h lz4/lz4.h miner.h \
  bitcoinrpc.h json/json_spirit_reader_template.h json/json_spirit_value.h \
  json/json_spirit_error_position.h json/json_spirit_writer_template.h \
  json/json_spirit_utils.h checkpoints.h
@@ -18,13 +18,13 @@ rpcmining.cpp main.h bignum.h serialize.h allocators.h :
  netbase.h compat.h protocol.h addrman.h util.h script.h keystore.h :
  crypter.h key.h stealth.h scrypt.h hashblock.h sph_jh.h sph_types.h :
  sph_keccak.h sph_echo.h db.h txdb.h txdb-leveldb.h :
- /home/shacker/oyoncoin/src/leveldb/include/leveldb/db.h :
- /home/shacker/oyoncoin/src/leveldb/include/leveldb/iterator.h :
- /home/shacker/oyoncoin/src/leveldb/include/leveldb/slice.h :
- /home/shacker/oyoncoin/src/leveldb/include/leveldb/status.h :
- /home/shacker/oyoncoin/src/leveldb/include/leveldb/options.h :
- /home/shacker/oyoncoin/src/leveldb/include/leveldb/write_batch.h init.h :
- wallet.h ui_interface.h walletdb.h base58.h smessage.h lz4/lz4.h miner.h :
+ /root/oyon/src/leveldb/include/leveldb/db.h :
+ /root/oyon/src/leveldb/include/leveldb/iterator.h :
+ /root/oyon/src/leveldb/include/leveldb/slice.h :
+ /root/oyon/src/leveldb/include/leveldb/status.h :
+ /root/oyon/src/leveldb/include/leveldb/options.h :
+ /root/oyon/src/leveldb/include/leveldb/write_batch.h init.h wallet.h :
+ ui_interface.h walletdb.h base58.h smessage.h lz4/lz4.h miner.h :
  bitcoinrpc.h json/json_spirit_reader_template.h json/json_spirit_value.h :
  json/json_spirit_error_position.h json/json_spirit_writer_template.h :
  json/json_spirit_utils.h checkpoints.h :

@@ -3,20 +3,20 @@ obj/kernel.o: kernel.cpp kernel.h main.h bignum.h serialize.h \
  net.h mruset.h netbase.h compat.h protocol.h addrman.h util.h script.h \
  keystore.h crypter.h key.h stealth.h scrypt.h hashblock.h sph_jh.h \
  sph_types.h sph_keccak.h sph_echo.h txdb.h txdb-leveldb.h \
- /home/shacker/oyoncoin/src/leveldb/include/leveldb/db.h \
- /home/shacker/oyoncoin/src/leveldb/include/leveldb/iterator.h \
- /home/shacker/oyoncoin/src/leveldb/include/leveldb/slice.h \
- /home/shacker/oyoncoin/src/leveldb/include/leveldb/status.h \
- /home/shacker/oyoncoin/src/leveldb/include/leveldb/options.h \
- /home/shacker/oyoncoin/src/leveldb/include/leveldb/write_batch.h
+ /root/oyon/src/leveldb/include/leveldb/db.h \
+ /root/oyon/src/leveldb/include/leveldb/iterator.h \
+ /root/oyon/src/leveldb/include/leveldb/slice.h \
+ /root/oyon/src/leveldb/include/leveldb/status.h \
+ /root/oyon/src/leveldb/include/leveldb/options.h \
+ /root/oyon/src/leveldb/include/leveldb/write_batch.h
 kernel.cpp kernel.h main.h bignum.h serialize.h :
  allocators.h version.h clientversion.h uint256.h sync.h threadsafety.h :
  net.h mruset.h netbase.h compat.h protocol.h addrman.h util.h script.h :
  keystore.h crypter.h key.h stealth.h scrypt.h hashblock.h sph_jh.h :
  sph_types.h sph_keccak.h sph_echo.h txdb.h txdb-leveldb.h :
- /home/shacker/oyoncoin/src/leveldb/include/leveldb/db.h :
- /home/shacker/oyoncoin/src/leveldb/include/leveldb/iterator.h :
- /home/shacker/oyoncoin/src/leveldb/include/leveldb/slice.h :
- /home/shacker/oyoncoin/src/leveldb/include/leveldb/status.h :
- /home/shacker/oyoncoin/src/leveldb/include/leveldb/options.h :
- /home/shacker/oyoncoin/src/leveldb/include/leveldb/write_batch.h :
+ /root/oyon/src/leveldb/include/leveldb/db.h :
+ /root/oyon/src/leveldb/include/leveldb/iterator.h :
+ /root/oyon/src/leveldb/include/leveldb/slice.h :
+ /root/oyon/src/leveldb/include/leveldb/status.h :
+ /root/oyon/src/leveldb/include/leveldb/options.h :
+ /root/oyon/src/leveldb/include/leveldb/write_batch.h :

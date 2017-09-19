@@ -6,14 +6,12 @@ obj/rpcnet.o: rpcnet.cpp net.h mruset.h netbase.h serialize.h \
  json/json_spirit_utils.h checkpoints.h alert.h wallet.h main.h bignum.h \
  script.h keystore.h crypter.h key.h stealth.h scrypt.h hashblock.h \
  sph_jh.h sph_types.h sph_keccak.h sph_echo.h ui_interface.h walletdb.h \
- db.h base58.h smessage.h \
- /home/shacker/oyoncoin/src/leveldb/include/leveldb/db.h \
- /home/shacker/oyoncoin/src/leveldb/include/leveldb/iterator.h \
- /home/shacker/oyoncoin/src/leveldb/include/leveldb/slice.h \
- /home/shacker/oyoncoin/src/leveldb/include/leveldb/status.h \
- /home/shacker/oyoncoin/src/leveldb/include/leveldb/options.h \
- /home/shacker/oyoncoin/src/leveldb/include/leveldb/write_batch.h \
- lz4/lz4.h
+ db.h base58.h smessage.h /root/oyon/src/leveldb/include/leveldb/db.h \
+ /root/oyon/src/leveldb/include/leveldb/iterator.h \
+ /root/oyon/src/leveldb/include/leveldb/slice.h \
+ /root/oyon/src/leveldb/include/leveldb/status.h \
+ /root/oyon/src/leveldb/include/leveldb/options.h \
+ /root/oyon/src/leveldb/include/leveldb/write_batch.h lz4/lz4.h
 rpcnet.cpp net.h mruset.h netbase.h serialize.h :
  allocators.h version.h clientversion.h compat.h protocol.h uint256.h :
  addrman.h util.h sync.h threadsafety.h bitcoinrpc.h :
@@ -22,11 +20,9 @@ rpcnet.cpp net.h mruset.h netbase.h serialize.h :
  json/json_spirit_utils.h checkpoints.h alert.h wallet.h main.h bignum.h :
  script.h keystore.h crypter.h key.h stealth.h scrypt.h hashblock.h :
  sph_jh.h sph_types.h sph_keccak.h sph_echo.h ui_interface.h walletdb.h :
- db.h base58.h smessage.h :
- /home/shacker/oyoncoin/src/leveldb/include/leveldb/db.h :
- /home/shacker/oyoncoin/src/leveldb/include/leveldb/iterator.h :
- /home/shacker/oyoncoin/src/leveldb/include/leveldb/slice.h :
- /home/shacker/oyoncoin/src/leveldb/include/leveldb/status.h :
- /home/shacker/oyoncoin/src/leveldb/include/leveldb/options.h :
- /home/shacker/oyoncoin/src/leveldb/include/leveldb/write_batch.h :
- lz4/lz4.h :
+ db.h base58.h smessage.h /root/oyon/src/leveldb/include/leveldb/db.h :
+ /root/oyon/src/leveldb/include/leveldb/iterator.h :
+ /root/oyon/src/leveldb/include/leveldb/slice.h :
+ /root/oyon/src/leveldb/include/leveldb/status.h :
+ /root/oyon/src/leveldb/include/leveldb/options.h :
+ /root/oyon/src/leveldb/include/leveldb/write_batch.h lz4/lz4.h :

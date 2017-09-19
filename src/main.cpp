@@ -2453,7 +2453,7 @@ bool LoadBlockIndex(bool fAllowNew)
         if (!fAllowNew)
             return false;
 
-        const char* pszTimestamp = "15/SEP/2017 OYONCOIN LAUNCH SUPPORTED BY THE OYON GROUP ";
+        const char* pszTimestamp = "19/SEP/2017 OYONCOIN LAUNCH SUPPORTED BY THE OYON GROUP ";
         CTransaction txNew;
         txNew.nTime = 1231231231;
         txNew.vin.resize(1);
@@ -2465,7 +2465,7 @@ bool LoadBlockIndex(bool fAllowNew)
         block.vtx.push_back(txNew);
         block.hashPrevBlock = 0;
         block.hashMerkleRoot = block.BuildMerkleTree();
-        block.nTime    = 1231231231;
+        block.nTime    = 1505804854;
         block.nVersion = 1;
         block.nBits    = bnProofOfWorkLimit.GetCompact();
 		block.nNonce   = 0;

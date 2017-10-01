@@ -2651,7 +2651,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+6"/>
-        <source>Listen for connections on &lt;port&gt; (default: 51737 or testnet: 51997)</source>
+        <source>Listen for connections on &lt;port&gt; (default: 10333 or testnet: 11333)</source>
         <translation type="unfinished"/>
     </message>
     <message>
